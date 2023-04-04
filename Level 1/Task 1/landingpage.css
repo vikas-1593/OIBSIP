@@ -1,0 +1,112 @@
+*{
+     box-sizing:border-box;
+     font-family:sans-serif;
+     margin:0;
+     padding:0;
+}
+
+h5{
+     color:#ed7474;
+}
+
+header{
+     background:url(https://images1.livehindustan.com/uploadimage/library/2020/08/16/16_9/16_9_1/chicken_wings_recipe_1597580162.jpg);
+     background-size:50% 90%;
+     background-repeat:no-repeat;
+     background-position:bottom left;
+     position:relative;
+     height:100vh;
+     width:100%;
+}
+
+nav{
+     align-items:center;
+     box-shadow: 5px 0 5px grey;
+     color:black;
+     display:flex;
+     justify-content:space-between;
+     padding:0 70px;
+     height:70px;
+     width:100%;
+}
+
+section{
+     font-size:40px;
+     font-weight:bold;
+     margin-right:160px;
+     margin-top:200px;
+}
+
+p{
+     font-weight: bold;
+     font-size:1.3rem;
+}
+
+span{
+     color:#ff0000;
+}
+
+.content{
+     align-items: right;
+}
+
+.Hot_wings{
+     width:5%;
+     height:5%;
+}
+
+.logo{
+     font-size:1.5em;
+     font-weight:bold;
+     letter-spacing:2px;
+}
+
+.menu{
+     width:50%;
+}
+
+.menu a{
+     color:black;
+     cursor:pointer;
+     padding:10px 20px;
+     text-decoration:none;
+}
+
+.menu a:hover{
+     color: #ff0000;
+     font-size:20px;
+}
+
+.Register{
+     position:inline-block;
+     width:300px;
+}
+
+.login {
+     background: #ff0a23;
+     background-image: -webkit-linear-gradient(top, #ff0a23, #b82b2b);
+     background-image: -moz-linear-gradient(top, #ff0a23, #b82b2b);
+     background-image: -ms-linear-gradient(top, #ff0a23, #b82b2b);
+     background-image: -o-linear-gradient(top, #ff0a23, #b82b2b);
+     background-image: linear-gradient(to bottom, #ff0a23, #b82b2b);
+     -webkit-border-radius: 28;
+     -moz-border-radius: 28;
+     border-radius: 28px;
+     font-family: Georgia;
+     color: #ffffff;
+     font-size: 20px;
+     padding: 10px 20px 10px 20px;
+     text-decoration: none;
+}
+   
+.login:hover {
+     background: #ed7474;
+     background-image: -webkit-linear-gradient(top, #ed7474, #b35d67);
+     background-image: -moz-linear-gradient(top, #ed7474, #b35d67);
+     background-image: -ms-linear-gradient(top, #ed7474, #b35d67);
+     background-image: -o-linear-gradient(top, #ed7474, #b35d67);
+     background-image: linear-gradient(to bottom, #ed7474, #b35d67);
+     cursor:pointer;
+     text-decoration: none;
+}
+   
